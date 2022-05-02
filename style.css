@@ -8,8 +8,31 @@ body{
     height: 100vh;
 }
 
-div{
 
+.start{
+
+
+    width: 80%;
+    height: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    /* background-color: #fff; */
+}
+
+
+#launcher{
+
+    border: none;
+    padding: 20px;    
+    border-radius:9px;
+
+    cursor: pointer;
+
+
+
+}
 .case{
 
 
@@ -24,6 +47,7 @@ div{
     grid-row-gap: 20px;
     justify-items: center;
     align-items: center;
+    display: none;
 
 }
 
@@ -35,4 +59,11 @@ div{
     background: #fff;
     margin: 10px;
     border-radius: 50%;
+}
+
+
+.score{
+
+    margin-right: 100px;
+    display: hidden;
 }

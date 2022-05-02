@@ -25,7 +25,7 @@ function displayText() {
  
  
  
- const departMinutes = 0.01
+const departMinutes = 0.01
 let temps = departMinutes * 60
 let timeInBox = document.createElement('p')
 
