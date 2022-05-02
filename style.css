@@ -9,3 +9,29 @@ body{
 }
 
 
+.case{
+
+
+
+    width: 40%;
+    height: 80%;
+    background: #000;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 100px;
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+    justify-items: center;
+    align-items: center;
+
+}
+
+.hole{
+
+
+    width: 80%;
+    height: 80%;
+    background: #fff;
+    margin: 10px;
+    border-radius: 50%;
+}
