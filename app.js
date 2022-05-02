@@ -1,6 +1,5 @@
 let body = document.querySelector('body');
 let button = document.createElement('button')
-// button.setAttribute('id', 'target')
 let prout = "prout"
 let currency = 0;
 
