@@ -1,11 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
 body{
 
-
+    
     background: teal;
     display: flex;
     justify-content: center;
     align-items: center;
+ 
     height: 100vh;
+    width: 100vw;
+}
+#container{
+
+    width: 800px;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 
@@ -35,35 +52,34 @@ body{
 }
 .case{
 
-
-
-    width: 40%;
-    height: 80%;
+    width: 60%;
+    height: 90%;
     background: #000;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 100px;
+    grid-template-rows: 90px;
     grid-column-gap: 20px;
     grid-row-gap: 20px;
     justify-items: center;
     align-items: center;
     display: none;
+    margin: 0;
 
 }
 
 .hole{
 
 
-    width: 80%;
-    height: 80%;
+    width: 75%;
+    height: 75%;
     background: #fff;
     margin: 10px;
     border-radius: 50%;
 }
 
 
-.score{
+.scoreContainer{
 
     margin-right: 100px;
-    display: hidden;
+    display: none;
 }
